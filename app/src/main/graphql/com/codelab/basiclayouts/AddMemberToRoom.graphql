@@ -1,0 +1,3 @@
+mutation AddMemberToRoom($userId: ID!, $roomId: ID!) {
+    addMemberToRoom(userId: $userId, roomId: $roomId)
+}

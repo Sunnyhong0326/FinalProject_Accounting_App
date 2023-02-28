@@ -1,0 +1,6 @@
+query GetChatRoomMessages($roomId: ID!) {
+    getChatRoomMessages(roomId: $roomId) {
+        userId
+        message
+    }
+}

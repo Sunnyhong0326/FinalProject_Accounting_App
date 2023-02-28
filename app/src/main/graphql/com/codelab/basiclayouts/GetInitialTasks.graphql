@@ -1,0 +1,5 @@
+query GetInitialTasks($number: Int!) {
+    getInitialTasks(number: $number) {
+        task
+    }
+}

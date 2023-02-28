@@ -1,0 +1,3 @@
+mutation AddFriend($userId: ID!, $friendId: ID!) {
+    addFriend(userId: $userId, friendId: $friendId)
+}

@@ -1,0 +1,3 @@
+mutation CreateRoom($roomName: String!) {
+    createRoom(roomName: $roomName)
+}

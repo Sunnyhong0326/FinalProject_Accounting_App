@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomCalendar" parent="android:Widget.CalendarView">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:focusedMonthDateColor">@color/purple_200</item>
+        <item name="android:weekNumberColor">@color/orange</item>
+        <item name="android:selectedWeekBackgroundColor">@color/purple_200</item>
+        <item name="android:dateTextAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+</resources>

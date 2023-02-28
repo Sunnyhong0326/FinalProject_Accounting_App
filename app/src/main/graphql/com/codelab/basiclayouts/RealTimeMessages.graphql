@@ -1,0 +1,6 @@
+subscription RealTimeMessages($roomId: ID!) {
+    realTimeMessages(roomId: $roomId) {
+        userId
+        message
+    }
+}
